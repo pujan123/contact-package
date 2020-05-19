@@ -15,5 +15,12 @@
         "psr-4": {
             "Test\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Test\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
