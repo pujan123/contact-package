@@ -1,0 +1,19 @@
+{
+    "name": "test/contact",
+    "description": "This is test contact description",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pujan Maharjan",
+            "email": "pujan@spicesresearch.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Test\\Contact\\": "src/"
+        }
+    }
+}
